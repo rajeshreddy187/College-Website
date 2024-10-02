@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>College website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+   <section class="sub-header">
+         <nav>
+             <a href="index.html"><img src="images/logo.png"</a>
+             <div class="nav-links">
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                   <ul>
+                      <li><a href="index.html">HOME</a></li> 
+                      <li><a href="about.html">ABOUT</a></li>
+                      <li><a href="course.html">COURSE</a></li> 
+                      <li><a href="blog.html">BLOG</a></li>
+                      <li><a href="contact.html">CONTACT</a></li>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+
+            <h1>ABOUT US</h1>
+
+        </section>
+        <!--------about us content----->
+        <section class="about us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>ACE Learning Made Clever</h1>
+                    <p>ACE Engineering College is a firm believer in value based education system. The college has been proactive in inculcating a sense of responsibility in the budding engineers along with the necessary academic inputs. Training methodologies are a perfect blend of traditional talk-chalk and audio visual resources. Regular class room teaching is well supported by both guided and self study supplementary resources. Students are guided, helped and mentored to evolve into professional graduates with the necessary cognitive skills as well as behavioral skills in addition to the basic technological skills for head start of their professional career.</p><br>
+                    <p>Regular academics input need to be strengthened by enabling the student to evolve into knowing the need and usefulness of the products in real life. A student is ready to jumpstart career when the four dimensions of engineering viz., What (concept), How (practice) When (Usefulness) and Why (Need or Purpose served by the technology) are learnt, moulding the learner to be Complete Engineer. Faculty explains what of a concept in the class room and the students learn the how aspect of the concept in the laboratories under the supervision of the faculty.</p><br>
+                    <p>Academic life at ACE Engineering College is lively with true education in place for learning. At ACE, the pivots of knowledge transfer process are Edutainment and infotainment. The first of these implies education in an enterprising manner while the second implies sharing or information in an entertaining manner. Class room interaction is made lively with fundamental concepts covered with real life case studies pertaining to concepts, students to assimilate and comprehend applicative knowledge of theoretical knowledge (the What aspect). This is followed by practice of the students in the laboratories (the How aspect).</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/about2.jpg" width="800">
+                </div>
+            </div>
+        </section>
+       
+   <!-------footer-->
+
+   <section class="footer">
+    <h4>ABOUT US</h4>
+    <p>ACE Engineering College was established by Yadala Satyanarayana Memorial Educational Society with the fundamental objective of nurturing the group of <br> nascent talent of young minds aspiring to make career in engineering into a pool of valuable and employable engineers. In addition, they understand their<br> responsibility to willfully render services to the society with dignity and accountability.<br>Ankushapur, Ghatkesar Mandal, Medchal District, Telangana.<br>+91-91333 08494, 99123 91169<br>Email: admissions@aceec.ac.in<br>Website: www.aceec.ac.in</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+   </section>
+
+
+        <!-----javascript for menu----->
+        <script>
+            var navLinks = document.getElementbyId("navLinks");
+            function showmenu(){
+                navLinks.style.right = "0";
+            }
+            function hidemenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+    </body>
+</html>

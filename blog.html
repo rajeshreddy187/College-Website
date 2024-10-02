@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>College website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+   <section class="sub-header">
+         <nav>
+             <a href="index.html"><img src="images/logo.png"</a>
+             <div class="nav-links">
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                   <ul>
+                      <li><a href="index.html">HOME</a></li> 
+                      <li><a href="about.html">ABOUT</a></li>
+                      <li><a href="course.html">COURSE</a></li> 
+                      <li><a href="blog.html">BLOG</a></li>
+                      <li><a href="contact.html">CONTACT</a></li>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+
+            <h1>Our Certificate & Online Programs For 2024</h1>
+
+        </section>
+        <!-------blog page---->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/certificate.jpg">
+                    <h2>Our Certificate & Online Programs For 2024</h2>
+                    <p>The members of the management are the persons of simple living and high thinking. They are kind enough to provide the most advanced infrastructure with state-of-the-art instructional and infrastructural technologies, software tools and other facilities. The Management creates a wonderful conducive learning and work ethos to students as well as to the teaching faculty.It brings an influx of new ideas to be replaced with new innovation, that would catapult them to higher levels of conceptualizing.</p><br>
+                    <p>It encourages the students to deal with matters not just competently but in an inspired manner. It aids in constantly exploring new possibilities. The skills of its wards are properly channelized. It provides a competitive platform known for its convergence and integrated activities, increasing the levels of confidence of students and staff. It takes emulative care in motivating, guiding and counseling the students.The main forte of the college is its members of the teaching faculty, also the members of the management themselves, being eminent teachers with profound knowledge and immense academic and industrial experience in their respective disciplines are being the common thread woven between the learners and the learned.It encourages the students to deal with matters not just competently but in an inspired manner. It aids in constantly exploring new possibilities. The skills of its wards are properly channelized.</p><br>
+                    <p>Imparting Quality Technical Education to young Engineers by providing the state-of-the-art laboratories, quality instructions by qualified and experienced faculty and research facilities to meet the requirements of stakeholders in real time usage and in training them to excel in competitive examinations for higher education and employment to interface globally emerging techno-informative challenges in the growth corridor of techno-excellence. To be a leading Technical Institute to prepare high quality Engineers to cater the needs of the stakeholders in the field of Engineering and Technology with global competence fundamental comprehensive analytical skills, critical reasoning, research aptitude, entrepreneur skills, ethical values and social concern.</p>
+
+                 <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                 </div>
+
+
+
+                </div>
+                <div class="blog-right">
+                <h3>Categories</h3>
+                <div>
+                    <span>Computer Science Engineering</span>
+                    <span>90</span>
+                </div>
+                <div>
+                    <span>Artificial intelligence & Machine Learning</span>
+                    <span>70</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>60</span>
+                </div>
+                <div>
+                    <span>Cyber Security</span>
+                    <span>65</span>
+                </div>
+                <div>
+                    <span>Internet Of Things</span>
+                    <span>55</span>
+                </div>
+                <div>
+                    <span>Information Technology</span>
+                    <span>68</span>
+                </div>
+                <div>
+                    <span>Electronics & Communication Engineering</span>
+                    <span>86</span>
+                </div>
+                <div>
+                    <span>Civil Engineering</span>
+                    <span>45</span>
+                </div>
+                <div>
+                    <span>Machanical Engineering</span>
+                    <span>48</span>
+                </div>
+            </div>
+        </section>
+        
+       
+   <!-------footer-->
+
+   <section class="footer">
+    <h4>ABOUT US</h4>
+    <p>ACE Engineering College was established by Yadala Satyanarayana Memorial Educational Society with the fundamental objective of nurturing the group of <br> nascent talent of young minds aspiring to make career in engineering into a pool of valuable and employable engineers. In addition, they understand their<br> responsibility to willfully render services to the society with dignity and accountability.<br>Ankushapur, Ghatkesar Mandal, Medchal District, Telangana.<br>+91-91333 08494, 99123 91169<br>Email: admissions@aceec.ac.in<br>Website: www.aceec.ac.in</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+   </section>
+
+
+        <!-----javascript for menu----->
+        <script>
+            var navLinks = document.getElementbyId("navLinks");
+            function showmenu(){
+                navLinks.style.right = "0";
+            }
+            function hidemenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+    </body>
+</html>
